@@ -62,12 +62,24 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/34be3531-098b-411f-8d7f-324e267bb33a) and click on Share -> Publish.
+### Deploy to GitHub Pages (Configured & Ready! ✓)
 
-## Can I connect a custom domain to my Lovable project?
+This project is **fully configured** for automatic deployment to GitHub Pages at **https://wiwink14-hub.github.io/**
 
-Yes, you can!
+**Quick Steps:**
+1. Ensure your repository is named `wiwink14-hub.github.io`
+2. Push your code to the `main` branch
+3. Go to Settings → Pages and select **GitHub Actions** as source
+4. Your site will auto-deploy on every push!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📖 **Full deployment guide:** See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**What's included:**
+- ✓ Vite configured with `base: "/"` for root directory
+- ✓ GitHub Actions workflow (`.github/workflows/deploy.yml`)
+- ✓ SPA routing support (`.nojekyll` + `404.html`)
+- ✓ Auto-redirect for deep links
+
+### Deploy via Lovable (Alternative)
+
+You can also open [Lovable](https://lovable.dev/projects/34be3531-098b-411f-8d7f-324e267bb33a) and click on Share → Publish.
